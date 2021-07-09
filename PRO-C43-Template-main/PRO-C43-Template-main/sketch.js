@@ -27,13 +27,7 @@ function draw() {
   fill("white");
   text("Score: " + score, 450, 50);
 // add code for changing the background to the treasure background
-  if(score===3){
-    clear();
-    background(bg2);
-    fill("red");
-    textSize(50);
-    text("Treasure Unlocked",250,250);
-  }
+  
   
 
   if(score === 3) {
